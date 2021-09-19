@@ -1,0 +1,93 @@
+body {
+    font-size: 17px;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #1a1a1a;
+    background: linear-gradient(247.26deg, #2748F5 45.74%, rgba(4, 41, 238, 0.97) 56.34%, rgba(31, 36, 58, 0.99) 104.2%, #FFFFFF 110.85%);
+}
+
+/** HEADER **/
+
+#header-nav {
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 0;
+    border: 0;
+    margin-top: 0;
+    margin-top: -22px;
+}
+
+#header-nav button {
+    margin-top: 22px;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.navbar-collapse {
+    border-top: 0;
+}
+
+.navbar-brand, .navbar-nav li a {
+    line-height: 76px;
+    height: 76px;
+    padding-top: 0;
+}
+
+.navbar-brand h1 {
+    color: #7d1913;
+    font-family: 'Abril Fatface', cursive;
+    font-weight: bolder;
+    font-size: 1.8em;
+}
+
+.navbar-brand a:hover {
+    text-decoration: none;
+    text-shadow: 1px 1px 1px #fe9797;
+}
+
+#nav-list {
+    background-color: rgba(255, 255, 255, 1);
+}
+
+#nav-list a {
+    font-weight: bolder;
+    color: #282828;
+    font-size: 1.2em;
+}
+
+#nav-list a:hover {
+    color: #202020;
+    background: linear-gradient(244.09deg, #0B2ACD 8.23%, #FFFFFF 110.48%);
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid #7d1913;
+}
+
+/** HOME PAGE **/
+
+#main-content {
+    width: 92%;
+    margin-bottom: 40px;
+}
+
+#main-content h2 {
+    font-size: 2.9em;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    color: rgba(255, 255, 255, 1);
+}
+
+#main-content h3 {
+    font-size: 1.6em;
+    font-weight: bold;
+    margin-bottom: 1em;
+}
+
+#main-section {
+    background: linear-gradient(295.55deg, #0229F8 -6.26%, #FFFFFF 96.5%);
+    box-shadow: 0 0 50px rgba(2, 41, 248, 1);
+    padding: 30px;
+    border-radius: 20px;
+}
